@@ -1,0 +1,51 @@
+# Ignore build output
+bin/
+obj/
+
+# Ignore NuGet packages
+*.nuget.props
+*.nuget.targets
+
+# Ignore user-specific files
+*.suo
+*.user
+*.userprefs
+*.vscode
+
+# Ignore build artifacts
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+AnyCPU/
+*.exe
+*.pdb
+*.dll
+*.exe.config
+*.dll.config
+
+# Ignore Visual Studio files
+.vs/
+*.vspscc
+*.vssscc
+*.vssettings
+*.sln.docstates
+*.user
+
+# Ignore Resharper files
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Ignore Rider files
+.idea/
+*.sln.iml
+
+# Ignore Mac files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Ignore Linux files
+*~
+# End of file
